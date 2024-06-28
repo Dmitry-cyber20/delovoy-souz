@@ -341,7 +341,7 @@ color: #970010;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(/img/Mask\ group.png);
+    background-image: url(img/Mask\ group.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1200px;
@@ -543,14 +543,14 @@ color: #970010;
     left: -20px;
     top: 50%;
     display: block;
-    background: url("/img/ar-right.svg") no-repeat;
+    background: url("img/ar-right.svg") no-repeat;
   }
   
   div.sim-slider-arrow-right {
     right: -20px;
     top: 50%;
     display: block;
-    background: url("/img/ar-left.svg") no-repeat;
+    background: url("img/ar-left.svg") no-repeat;
   }
   
   div.sim-slider-arrow-left:hover {

@@ -710,14 +710,14 @@ color: #970010;
     left: -20px;
     top: 50%;
     display: block;
-    background: url("/img/ar-right.svg") no-repeat;
+    background: url("img/ar-right.svg") no-repeat;
   }
   
   div.sim-slider_2-arrow-right {
     right: -20px;
     top: 50%;
     display: block;
-    background: url("/img/ar-left.svg") no-repeat;
+    background: url("img/ar-left.svg") no-repeat;
   }
   
   div.sim-slider_2-arrow-left:hover {

@@ -72,7 +72,7 @@ body {
     content: "";
     position: absolute;
     top: 5px;
-    right: 20px;
+    right: 5px;
     z-index: 1000;
     width: 6px;
     height: 6px;

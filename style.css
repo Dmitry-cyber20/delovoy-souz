@@ -65,7 +65,7 @@ body {
   }
   .dropdown-nav {
     position: relative;
-    width: 160px;
+    width: 140px;
   }
   
   .dropdown-nav::before {

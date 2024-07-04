@@ -73,7 +73,7 @@ body {
     content: "";
     position: absolute;
     top: 5px;
-    right: 50px;
+    right: 20px;
     z-index: 1000;
     width: 6px;
     height: 6px;
@@ -85,14 +85,14 @@ body {
     pointer-events: none;
   }
   
-  .dropdown-nav.active::before {
+  .dropdown-nav .active::before {
     top: 10px;
     transform: rotate(-225deg);
   }
   
   .dropdown-nav input {
     position: relative;
-    width: 160px;
+    width: 140px;
     cursor: pointer;
     background: #fafafa;
     font-size: 16px;

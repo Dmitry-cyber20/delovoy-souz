@@ -63,10 +63,13 @@ body {
     align-items: center;
     gap: 10px;
   }
-  .dropdown-nav {
-    position: relative;
-    width: 140px;
+  .nav-select {
+    font-size: 16px;
+    padding: 2px 5px;
+    border: none;
+    font-family: inherit;
   }
+  
   
   .dropdown-nav::before {
     content: "";

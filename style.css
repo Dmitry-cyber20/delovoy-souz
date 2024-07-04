@@ -42,6 +42,7 @@ body {
   }
   nav a:hover{
     color: #970010;
+    text-decoration-line:underline;
   }
   .personal-area{
     display: flex;

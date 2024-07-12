@@ -1513,3 +1513,186 @@ div.sim-slider_2-arrow-right:hover {
   text-decoration: none;
   color: #869791;
 }
+
+/*адаптация*/
+
+@media screen and (max-width: 1024px){
+  .header-container{
+    width: 980px;
+  }
+
+nav{
+  display: none !important;
+}
+.hero-main{
+  width: 980px;
+}
+.hero-main-content{
+  padding: 20px 20px 20px 20px;
+}
+.hero-title{
+  font-size: 32px;
+}
+.hero-description{
+  font-size: 24px;
+  width: 88%;
+}
+.cta-buttons{
+  gap: 10px;
+}
+.main-text{
+  font-size: 20px;
+  width: 80%;
+  }
+  .hero-main-image img{
+    width: 450px;
+    margin-left: -220px;
+  }
+  .services-container{
+    width: 980px;
+  }
+  .services-grid{
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .service-item_1, 
+  .service-item_2, 
+  .service-item_3, 
+  .service-item_4, 
+  .service-item_5, 
+  .service-item_7, 
+  .service-item_8, 
+  .service-item_9, 
+  .service-item_10, 
+  .service-item_11, 
+  .service-item_13, 
+  .service-item_14, 
+  .service-item_15, 
+  .service-item_16, 
+  .service-item_17, 
+  .service-item_19, 
+  .service-item_20, 
+  .service-item_21, 
+  .service-item_22, 
+  .service-item_23, 
+  .service-item_25, 
+  .service-item_26, 
+  .service-item_27{
+    min-width: fit-content;
+    background-color: transparent;
+  }
+  .service-item_26{
+    border-radius: 10px;
+  }
+  .service-item_5,
+  .service-item_10,
+  .service-item_15,
+  .service-item_20,
+  .service-item_25{
+    border: none;
+  }
+  .cool-ofer{
+    max-width: 980px;
+    min-width: 980px;
+  }
+  .advantages-items{
+    max-width: 980px;
+    font-size: 18px;
+  }
+  .partners{
+    width: 980px;
+    margin: 0 auto;
+  }
+  .partner-item{
+    padding: 20px;
+    max-width: 100%;
+  }
+  .offer-slider{
+    width: 980px;
+    margin: 0 auto;
+  }
+  .sim-slider,.sim-slider_2,
+  .sim-slider-list img,
+  .sim-slider_2-list img,
+  .services-supply-container{
+    max-width: 980px;
+  }
+  .services-supply-item{
+    width: auto;
+  }
+  .tabs-reviews{
+    max-width: 980px;
+  }
+  .tabs-reviews>label{
+    width: 230px;
+  }
+  .home-demo .item{
+    height: 210px;
+    padding: 0 5px 10px 10px;
+  }
+  .picture-number{
+    width: 1000px;
+  }
+  .benefits__inner{
+    max-width: 980px;
+  }
+  .benefits {
+    width: 980px;
+    margin: 0 auto;
+}
+  .benefits__number,
+  .benefits-span{
+    font-size: 32px;
+  }
+  .benefits__title{
+    font-size: 18px;
+  }
+  .director{
+    width: 980px;
+  }
+  .director-item{
+    width: 49%;
+  }
+  .director-buttons{
+    padding-left: 350px;
+    padding-top: 430px;
+  }
+  .home-demo_2{
+    width: 980px;
+  }
+  .home-demo_2 .item{
+    width: auto;
+  }
+  .contacts-adress{
+    width: 980px;
+    font-size: 20px;
+  }
+  .clients-partners-forms{
+    width: 980px;
+  }
+  .client-form,
+  .client-form_2{
+    width: 42%;
+  }
+  .footer-content{
+    width: 980px;
+    font-size: 12px;
+  }
+  .logo-footer{
+    width: 180px;
+  }
+  .dropdown input{
+    font-size: 12px;
+    width: auto;
+  }
+  .dropdown{
+    width: auto;
+  }
+  .dropdown::before{
+    top: 3px;
+    width: 4px;
+    height: 4px;
+  }
+  .politica-block{
+    font-size: 12px;
+  }
+}

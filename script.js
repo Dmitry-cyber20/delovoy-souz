@@ -186,24 +186,9 @@ $(function() {
 	});
   });
 
-  	//Делегируем события кнопок next prev по умолчанию нашим кнопкам, которые могут находится ыне контейнера слайдера
-	var owl=$(".owl-carousel");
-	owl.owlCarousel();
-	//$(".next-btn") - находим нашу кнопку
-	$(".next-btn").click(function(){
-		owl.trigger("next.owl.carousel");
-	});
-	$(".prev-btn").click(function(){
-		owl.trigger("prev.owl.carousel");
-	});
-
 // о нас в цифрах
 
-
-
-
 // tabs
-
 
 // ЛК
   function show(value) {

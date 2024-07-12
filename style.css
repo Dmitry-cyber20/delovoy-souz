@@ -1222,7 +1222,7 @@ margin-right: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 .client-form{
-  background-image: url(/img/heart.png);
+  background-image: url(img/heart.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   border-radius: 10px;
@@ -1231,7 +1231,7 @@ margin-right: 10px;
 
 }
 .client-form_2{
-  background-image: url(/img/Mask-logopng.png);
+  background-image: url(img/Mask-logopng.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   border-radius: 10px;

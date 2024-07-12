@@ -203,17 +203,7 @@ $(function() {
 
 
 // tabs
-$(function() {
-	// Owl Carousel_2
-	var owl = $(".owl-carousel_2");
-	owl.owlCarousel_2({
-	  items: 4,
-	  margin: 20,
-	  loop: true,
-	  nav: true,
-	  dots: false
-	});
-  });
+
 
 // ЛК
   function show(value) {

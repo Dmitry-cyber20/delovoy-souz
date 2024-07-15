@@ -2651,4 +2651,8 @@ div.sim-slider_2-arrow-right:hover {
     min-width: 100%;
     max-width: 100%;
   }
+  .item-blog_1{
+    height: 200px;
+    padding: 10px;
+  }
 }

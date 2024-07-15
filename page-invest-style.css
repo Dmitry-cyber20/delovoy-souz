@@ -44,6 +44,11 @@ nav ul {
 nav li {
     margin-right: 10px;
 }
+nav li :hover{
+    color: #DB3544;
+    font-weight: 500;
+    border-bottom: 1px solid #DB3544;
+}
 
 nav a {
     color: #000000;

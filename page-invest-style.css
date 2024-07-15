@@ -480,3 +480,396 @@ nav a {
     right: -100px;
     position: relative;
 }
+
+.input-box input {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    border: 1px solid #970010;
+    border-radius: 10px;
+}
+
+.example {
+    background-image: url(img/screen1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.example-wrapp {
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+}
+
+.example-item {
+    width: 520px;
+    background-color: #fff;
+    background-image: url(img/modern-balcony.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 10px;
+    padding: 10px 0 20px 20px;
+}
+
+.btn-forms-example {
+    width: 210px;
+    padding: 20px 60px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #970010;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #7eb2dd;
+}
+
+.example-title {
+    font-size: 24px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 0 10px 0;
+}
+
+.example-description {
+    font-size: 16px;
+    width: 70%;
+    margin: 0 !important;
+    padding-bottom: 30px;
+}
+
+.real-estate-foto img {
+    width: 100%;
+    float: right;
+}
+
+.real-estate-wrapp {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 60px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.real-estate-text {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 10px;
+    width: 350px;
+}
+
+.real-estate-text2 {
+    font-size: 22px;
+    line-height: 30px;
+    width: 600px;
+    position: absolute;
+    margin: 0;
+}
+
+.real-estate-text3 {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 80px 0 0 0;
+    width: 620px;
+    position: absolute;
+}
+
+.example-button {
+    display: inline-block;
+    background-color: #DB3544;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 0;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+    margin-top: 210px;
+    position: relative;
+}
+
+.example-button:hover {
+    background-color: #970010;
+}
+
+.real-estate-pic img {
+    width: 100%;
+}
+
+.last-forms-offer {
+    display: flex;
+    width: 1160px;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.title-last-forms-offer {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.description-last-forms-offer {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.clients-partners-forms {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.client-form,
+.client-form_2 {
+    width: 540px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.client-form {
+    background-image: url(img/talk.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+
+}
+
+.client-form_2 {
+    background-image: url(img/volume.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+
+}
+
+.client-form-offer {
+    font-size: 24px;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+
+.name,
+.text {
+    display: block;
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.input-box input {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    border: 1px solid #DB3544;
+    border-radius: 10px;
+}
+
+
+
+.btn-forms-client {
+    width: 210px;
+    padding: 20px 60px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #DB3544;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.btn-forms-client:hover {
+    background-color: #970010;
+}
+
+/*Контакты*/
+.title-our-contact-offer {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.social-contact {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.odnok {
+    width: 200px;
+}
+
+.whatsapp,
+.vk,
+.tg {
+    width: 50px;
+}
+
+.contacts-adress {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 80px;
+    font-size: 24px;
+}
+
+.footer-wrapper {
+    background-color: #ffffff;
+    margin-top: 80px;
+}
+
+.footer-content {
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    width: 200px;
+}
+
+.footer-search {
+    border: 1px solid #970010;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-contact_2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.odnok_2 {
+    width: 100px;
+}
+
+.whatsapp_2,
+.vk_2,
+.tg_2 {
+    width: 25px;
+}
+
+.dropdown {
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+
+.dropdown::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    z-index: 1000;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #3f3f3f;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #dadada;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.dropdown.active::before {
+    top: 10px;
+    transform: rotate(-225deg);
+}
+
+.dropdown input {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    background: #ffffff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.dropdown .options {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+.dropdown.active .options {
+    display: block;
+}
+
+
+.dropdown .options div {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.dropdown .options div:hover {
+    background: #62baea;
+    color: #fff;
+}
+
+.footer-menu_2,
+.footer-menu_4 {
+    width: 160px;
+}
+
+.footer-line {
+    opacity: 0.5;
+}
+
+.politica-block {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.mynumber {
+    text-decoration: none;
+    color: #869791;
+}

@@ -2655,4 +2655,24 @@ div.sim-slider_2-arrow-right:hover {
     height: 200px;
     padding: 10px;
   }
+  .tabs-reviews>label{
+    margin: 0 0 10px 0;
+    padding: 10px 0 10px 0;
+  }
+  .service-item_6, .service-item_12, .service-item_18, .service-item_24{
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .menu__box{
+    padding: 80px 0 0 20px;
+  }
+  .menu__item {
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+.logo-menu img{
+  width: 160px;
+  margin-bottom: 20px;
+}
 }

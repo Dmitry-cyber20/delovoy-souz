@@ -744,132 +744,118 @@ nav a {
 
 .contacts-adress {
     display: flex;
-    width: 1200px;
+    width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 80px;
     font-size: 24px;
 }
+.title-our-offer {
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 40px;
+    width: 800px;
+    gap: 20px;
+}
 
 .footer-wrapper {
     background-color: #ffffff;
     margin-top: 80px;
-}
-
-.footer-content {
+  }
+  
+  .footer-content {
     display: flex;
-    width: 1160px;
+    width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
-}
-
-.logo-footer {
+  }
+  
+  .logo-footer {
     width: 200px;
-}
-
-.footer-search {
+  }
+  
+  .footer-search {
     border: 1px solid #970010;
     border-radius: 10px;
     padding: 10px;
-}
-
-.social-contact_2 {
+  }
+  
+  .social-contact_2 {
     display: flex;
     justify-content: space-evenly;
     width: 200px;
     height: 60px;
     padding-top: 20px;
-}
-
-.odnok_2 {
+  }
+  
+  .odnok_2 {
     width: 100px;
-}
-
-.whatsapp_2,
-.vk_2,
-.tg_2 {
+  }
+  
+  .whatsapp_2,
+  .vk_2,
+  .tg_2 {
     width: 25px;
-}
-
-.dropdown {
-    position: relative;
-    width: 200px;
-    height: 50px;
-}
-
-.dropdown::before {
-    content: "";
-    position: absolute;
-    top: 5px;
-    right: 50px;
-    z-index: 1000;
-    width: 6px;
-    height: 6px;
-    border: 1px solid #3f3f3f;
-    border-top: 1px solid #fff;
-    border-right: 1px solid #dadada;
-    transform: rotate(-45deg);
-    transition: 0.5s;
-    pointer-events: none;
-}
-
-.dropdown.active::before {
-    top: 10px;
-    transform: rotate(-225deg);
-}
-
-.dropdown input {
-    position: relative;
-    width: 200px;
-    cursor: pointer;
-    background: #ffffff;
-    font-size: 16px;
-    border: none;
-    outline: none;
-}
-
-.dropdown .options {
-    position: absolute;
-    top: 40px;
-    width: 100%;
-    background: #ffffff;
-    border-radius: 10px;
-    overflow: hidden;
-    display: none;
-}
-
-.dropdown.active .options {
-    display: block;
-}
-
-
-.dropdown .options div {
-    padding: 12px 20px;
-    cursor: pointer;
-}
-
-.dropdown .options div:hover {
-    background: #62baea;
-    color: #fff;
-}
-
-.footer-menu_2,
-.footer-menu_4 {
+  }
+  
+  
+  .footer-menu_2,
+  .footer-menu_4 {
     width: 160px;
-}
-
-.footer-line {
+  }
+  
+  .footer-line {
     opacity: 0.5;
-}
-
-.politica-block {
+  }
+  
+  .politica-block {
     display: flex;
     justify-content: center;
     gap: 60px;
     align-items: center;
-}
-
-.mynumber {
+  }
+  
+  .mynumber {
     text-decoration: none;
     color: #869791;
+  }
+  
+
+  .dropbtn {
+    background-color: #ffffff;
+    font-size: 16px;
+    border: none;
+    font-family: inherit;
+    padding: 0;
 }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ffffff;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #DB3544;
+font-weight: 500;}

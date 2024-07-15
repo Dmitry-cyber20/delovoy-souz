@@ -24,7 +24,14 @@
                 <ul>
                     <li><a href="/">Главная</a></li>
                     <li><a href="#">Сотрудничество</a></li>
-                    <li><a href="/page-invest.html">Услуги</a></li>
+                    <li><div class="dropdown">
+                        <button class="dropbtn">Услуги</button>
+                        <div class="dropdown-content">
+                          <a href="/page-invest.html">Инвестиции</a>
+                          <a href="#">Зарегистрироваться</a>
+                          <a href="#">Вход</a>
+                        </div>
+                      </div></li>
                     <li><a href="#">Партнеры</a></li>
                     <li><a href="#">Блог</a></li>
                     <li><a href="#">О компании</a></li>
@@ -45,12 +52,13 @@
                 <a href="#" class="social-icon_4">
                     <img src="img/Телеграм.svg" alt="telegram" style="width: 30px;">
                 </a>
-                <a href="#" class="social-icon_5">
-                    <img src="img/login3.png" alt="Личный кабинет" style="width: 30px;">
-                </a>
-                <a href="#" class="social-icon_6">
-                    <img src="img/menu3.png" class="gamburger-menu" alt="Меню гамбургер" style="width: 30px;">
-                </a>
+                <div class="dropdown">
+                    <button class="dropbtn"><img src="img/login3.png" alt="Личный кабинет" style="width: 30px;"></button>
+                    <div class="dropdown-content">
+                      <a href="#">Зарегистрироваться</a>
+                      <a href="#">Вход</a>
+                    </div>
+                  </div>
                 <div class="hamburger-menu">
                     <input id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
@@ -323,7 +331,7 @@
                 </div>
             </div>
             <div class="our-contact-offer">
-                <p class="title-our-contact-offer">Все<span class="title-span"> продукты и услуги</span></p>
+                <p class="title-our-offer">Все <span class="title-span"> продукты и услуги</span></p>
             </div>
         </section>
         <footer>
@@ -345,12 +353,12 @@
                     <div class="footer-menu_2">
                         <p>Главная</p>
                         <div class="dropdown">
-                            <input class="text-box" type="text" placeholder="Личный кабинет">
-                            <div class="options">
-                                <div onclick="show('Вход')">Вход</div>
-                                <div onclick="show('Зарегистрироваться')">Зарегистрироваться</div>
+                            <button class="dropbtn">Личный кабинет</button>
+                            <div class="dropdown-content">
+                              <a href="#">Зарегистрироваться</a>
+                              <a href="#">Вход</a>
                             </div>
-                        </div>
+                          </div>
                     </div>
                     <div class="footer-menu_3">
                         <p>Банковские карты</p>
@@ -391,11 +399,9 @@
                     <p>Политика конфиденциальности</p>
                     <a href="https://t.me/Dmitry_art81" class="mynumber">Создание сайта @Dmitry_art81</a>
                 </div>
-
             </div>
         </footer>
     </main>
-    <script src="script.js"></script>
 </body>
 
 </html>

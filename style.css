@@ -1,5 +1,6 @@
 /* Общие стили */
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -989,7 +990,10 @@ div.sim-slider_2-arrow-right:hover {
 }
 
 /* Активация секций с помощью псевдокласса :checked */
-#tab1-review:checked~#content-tab1-review, #tab2-review:checked~#content-tab2-review, #tab3-review:checked~#content-tab3-review, #tab4-review:checked~#content-tab4-review {
+#tab1-review:checked~#content-tab1-review,
+#tab2-review:checked~#content-tab2-review,
+#tab3-review:checked~#content-tab3-review,
+#tab4-review:checked~#content-tab4-review {
   display: block;
 }
 
@@ -1656,7 +1660,8 @@ div.sim-slider_2-arrow-right:hover {
   nav {
     display: none !important;
   }
-  .personal-area img{
+
+  .personal-area img {
     width: 20px !important;
   }
 
@@ -1763,7 +1768,8 @@ div.sim-slider_2-arrow-right:hover {
     margin: 0 auto;
   }
 
-  .sim-slider, .sim-slider_2,
+  .sim-slider,
+  .sim-slider_2,
   .sim-slider-list img,
   .sim-slider_2-list img,
   .services-supply-container {
@@ -1868,7 +1874,8 @@ div.sim-slider_2-arrow-right:hover {
     width: 4px;
     height: 4px;
   }
-  .dropbtn{
+
+  .dropbtn {
     font-size: 12px;
   }
 
@@ -1924,8 +1931,13 @@ div.sim-slider_2-arrow-right:hover {
   .header-container {
     max-width: 728px;
   }
-  .dropbtn img{
+
+  .dropbtn img {
     width: 20px !important;
+  }
+
+  .social-icon_1 img {
+    width: 60px !important;
   }
 
   .hero-main {
@@ -2202,7 +2214,8 @@ div.sim-slider_2-arrow-right:hover {
     margin-top: 40px;
   }
 
-  .client-form, .client-form_2 {
+  .client-form,
+  .client-form_2 {
     width: 40%;
   }
 
@@ -2423,11 +2436,13 @@ div.sim-slider_2-arrow-right:hover {
     width: 300px;
   }
 
-  .sim-slider, .offer-slider_2 {
+  .sim-slider,
+  .offer-slider_2 {
     max-width: 300px;
   }
 
-  .sim-slider-list img, .sim-slider_2-list img {
+  .sim-slider-list img,
+  .sim-slider_2-list img {
     max-width: 300px;
   }
 
@@ -2440,7 +2455,8 @@ div.sim-slider_2-arrow-right:hover {
     justify-content: center;
   }
 
-  .sim-slider, .offer-slider_2 {
+  .sim-slider,
+  .offer-slider_2 {
     max-width: 300px;
     display: flex;
     justify-content: center;
@@ -2583,7 +2599,9 @@ div.sim-slider_2-arrow-right:hover {
     width: 100px;
   }
 
-  .whatsapp, .vk, .tg {
+  .whatsapp,
+  .vk,
+  .tg {
     width: 30px;
   }
 
@@ -2597,7 +2615,8 @@ div.sim-slider_2-arrow-right:hover {
     padding-top: 40px;
   }
 
-  .our-blog-offer, .last-forms-offer {
+  .our-blog-offer,
+  .last-forms-offer {
     width: 320px;
     text-align: center;
   }
@@ -2627,7 +2646,8 @@ div.sim-slider_2-arrow-right:hover {
     gap: 20px;
   }
 
-  .client-form, .client-form_2 {
+  .client-form,
+  .client-form_2 {
     width: 300px;
     padding: 10px;
     background-size: contain;
@@ -2667,7 +2687,10 @@ div.sim-slider_2-arrow-right:hover {
     left: -3px;
   }
 
-  .footer-menu_2, .footer-menu_3, .footer-menu_4, .footer-menu_5 {
+  .footer-menu_2,
+  .footer-menu_3,
+  .footer-menu_4,
+  .footer-menu_5 {
     width: 100%;
   }
 
@@ -2694,7 +2717,10 @@ div.sim-slider_2-arrow-right:hover {
     padding: 10px 0 10px 0;
   }
 
-  .service-item_6, .service-item_12, .service-item_18, .service-item_24 {
+  .service-item_6,
+  .service-item_12,
+  .service-item_18,
+  .service-item_24 {
     min-width: 100%;
     max-width: 100%;
     height: auto;

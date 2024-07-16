@@ -918,6 +918,7 @@ nav a {
 }
 
 /*Адаптация*/
+
 @media screen and (max-width: 1024px) {
 
     .gamburger-menu {
@@ -1158,4 +1159,234 @@ nav a {
         justify-content: space-between;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 0px !important;
+    }
+    .hero-main{
+        background-position: center;
+    }
+
+    .header-container {
+        max-width: 728px;
+    }
+
+    .hero-main-content {
+        width: 728px;
+    }
+
+    .hero-description {
+        font-size: 20px;
+        padding: 0;
+    }
+    .cta-buttons{
+        justify-content: space-between;
+    }
+
+    .cta-button1_2{
+        font-size: 16px;
+    }
+
+    .mytext-selection {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .cta-button_1{
+        padding: 5px 10px;
+    }
+    .main-text {
+        font-size: 20px;
+        width: 100%;
+    }
+    .cta-buttons1 {
+        justify-content: flex-start;
+        gap: 60px;
+    }
+    .cta-button1{
+        padding: 15px 40px;
+        margin: 20px 0 60px 0;
+        font-size: 20px;
+    }
+    .offer {
+        width: 728px;
+    }
+    .second-offer {
+        max-width: 728px;
+    }
+    .title-second-offer {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .description-second-offer {
+        width: 708px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .text-second-offer {
+        font-size: 20px;
+        width: 728px;
+    }
+    .advantages-items {
+        max-width: 728px;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .advantages-title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .advantages-item_1, 
+    .advantages-item_2, 
+    .advantages-item_3 {
+        width: 32%;
+    }
+    .advantages-items-what {
+        width: 728px;
+        padding-top: 0;
+    }
+    .advantages-items-what p{
+        font-size: 16px;
+    }
+    .cta-buttons5 {
+        max-width: 728px;
+        margin-top: 60px;
+        justify-content: space-between;
+    }
+    .third-offer {
+        max-width: 728px;
+        padding-top: 60px;
+    }
+    .description-third-offer {
+        width: 718px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .administration-wrapp {
+        width: 728px;
+        padding-top: 40px;
+    }
+    .administration-content {
+        width: 100%;
+    }
+    .hand-picture {
+        right: -30px;
+    }
+    .administration-item p {
+        font-size: 14px;
+    }
+    .example-wrapp {
+        width: 728px;
+    }
+    .example-title {
+        width: 100%;
+        font-size: 20px;
+    }
+    .example-description {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .example-item {
+        margin-bottom: -20px;
+    }
+    .real-estate-wrapp {
+        width: 728px;
+        padding-top: 40px;
+    }
+    .real-estate-text {
+        font-size: 16px;
+        padding: 0;
+        line-height: 24px;
+        width: auto;
+    }
+    .real-estate-text2, .real-estate-text3 {
+        font-size: 16px;
+        width: 90%;
+    }
+    .real-estate-pic{
+        display: none;
+    }
+    .real-estate-text3 {
+        font-size: 16px;
+        margin: 30px 0 0 0;
+    }
+    .example-button {
+        margin-top: 140px;
+    }
+    .input-box input{
+        width: 90%;
+    }
+    .btn-forms-example {
+        width: 93%;
+        padding: 20px 0;
+    }
+    .last-forms-offer {
+        width: 728px;
+    }
+    .last-forms{
+        padding-top: 40px;
+    }
+    .title-last-forms-offer {
+        padding: 0;
+        margin: 0;
+    }
+    .description-last-forms-offer {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .clients-partners-forms {
+        padding-top: 40px;
+        padding-bottom: 0;
+        width: 728px;
+    }
+    .client-form, .client-form_2 {
+        width: 40%;
+    }
+    .client-form-offer {
+        font-size: 20px;
+    }
+    .btn-forms-client {
+        width: 94%;
+        padding: 20px 0;
+    }
+    .social-contact {
+        width: 728px;
+        height: auto;
+        padding: 20px 0;
+    }
+    .contacts-adress {
+        width: 728px;
+        font-size: 16px;
+    }
+    .title-our-offer {
+        width: 728px;
+        margin: 60px auto 10px;
+    }
+    .footer-content {
+        width: 728px;
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+    .dropbtn {
+        font-size: 14px;
+    }
+    .logo-search,
+    .footer-menu_2,
+    .footer-menu_3,
+    .footer-menu_5{
+        width: 33%;
+    }
+    .footer-menu_4 {
+        width: 50%;
+    }
+    .politica-block {
+        gap: 0;
+        width: 728px;
+        font-size: 12px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px){
+    
 }

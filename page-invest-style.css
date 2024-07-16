@@ -1800,6 +1800,9 @@ nav a {
     .title-our-offer2 {
         display: none;
     }
+    .our-contact-offer2{
+        display: none;
+    }
 
     .title-our-offer {
         display: block;

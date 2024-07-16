@@ -89,6 +89,11 @@ nav a {
     display: none;
 }
 
+.logo-menu-img {
+    width: 200px !important;
+    padding-left: 20px;
+}
+
 #menu__toggle {
     opacity: 0;
     display: none;
@@ -159,9 +164,9 @@ nav a {
 
 .menu__item {
     display: block;
-    padding: 12px 24px;
-    color: #333;
-    font-size: 20px;
+    padding: 5px 20px;
+    color: #000000;
+    font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
@@ -207,6 +212,10 @@ nav a {
 }
 
 .title-span {
+    color: #970010;
+}
+
+.title1-span {
     color: #970010;
 }
 
@@ -806,6 +815,10 @@ nav a {
     width: 25px;
 }
 
+.title-our-offer {
+    display: none;
+}
+
 
 .footer-menu_2,
 .footer-menu_4 {
@@ -1166,7 +1179,8 @@ nav a {
     header {
         padding: 0px !important;
     }
-    .hero-main{
+
+    .hero-main {
         background-position: center;
     }
 
@@ -1182,11 +1196,12 @@ nav a {
         font-size: 20px;
         padding: 0;
     }
-    .cta-buttons{
+
+    .cta-buttons {
         justify-content: space-between;
     }
 
-    .cta-button1_2{
+    .cta-button1_2 {
         font-size: 16px;
     }
 
@@ -1194,199 +1209,638 @@ nav a {
         font-size: 20px;
         line-height: 32px;
     }
-    .cta-button_1{
+
+    .cta-button_1 {
         padding: 5px 10px;
     }
+
     .main-text {
         font-size: 20px;
         width: 100%;
     }
+
     .cta-buttons1 {
         justify-content: flex-start;
         gap: 60px;
     }
-    .cta-button1{
+
+    .cta-button1 {
         padding: 15px 40px;
         margin: 20px 0 60px 0;
         font-size: 20px;
     }
+
     .offer {
         width: 728px;
     }
+
     .second-offer {
         max-width: 728px;
     }
+
     .title-second-offer {
         font-size: 32px;
         line-height: 42px;
     }
+
     .description-second-offer {
         width: 708px;
         font-size: 20px;
         font-weight: 400;
     }
+
     .text-second-offer {
         font-size: 20px;
         width: 728px;
     }
+
     .advantages-items {
         max-width: 728px;
         padding-top: 0;
         padding-bottom: 20px;
     }
+
     .advantages-title {
         font-size: 20px;
         line-height: 22px;
     }
-    .advantages-item_1, 
-    .advantages-item_2, 
+
+    .advantages-item_1,
+    .advantages-item_2,
     .advantages-item_3 {
         width: 32%;
     }
+
     .advantages-items-what {
         width: 728px;
         padding-top: 0;
     }
-    .advantages-items-what p{
+
+    .advantages-items-what p {
         font-size: 16px;
     }
+
     .cta-buttons5 {
         max-width: 728px;
         margin-top: 60px;
         justify-content: space-between;
     }
+
     .third-offer {
         max-width: 728px;
         padding-top: 60px;
     }
+
     .description-third-offer {
         width: 718px;
         font-size: 20px;
         font-weight: 400;
     }
+
     .administration-wrapp {
         width: 728px;
         padding-top: 40px;
     }
+
     .administration-content {
         width: 100%;
     }
+
     .hand-picture {
         right: -30px;
     }
+
     .administration-item p {
         font-size: 14px;
     }
+
     .example-wrapp {
         width: 728px;
     }
+
     .example-title {
         width: 100%;
         font-size: 20px;
     }
+
     .example-description {
         width: 100%;
         padding-bottom: 20px;
     }
+
     .example-item {
         margin-bottom: -20px;
     }
+
     .real-estate-wrapp {
         width: 728px;
         padding-top: 40px;
     }
+
     .real-estate-text {
         font-size: 16px;
         padding: 0;
         line-height: 24px;
         width: auto;
     }
+
     .real-estate-text2, .real-estate-text3 {
         font-size: 16px;
         width: 90%;
     }
-    .real-estate-pic{
+
+    .real-estate-pic {
         display: none;
     }
+
     .real-estate-text3 {
         font-size: 16px;
         margin: 30px 0 0 0;
     }
+
     .example-button {
         margin-top: 140px;
     }
-    .input-box input{
+
+    .input-box input {
         width: 90%;
     }
+
     .btn-forms-example {
         width: 93%;
         padding: 20px 0;
     }
+
     .last-forms-offer {
         width: 728px;
     }
-    .last-forms{
+
+    .last-forms {
         padding-top: 40px;
     }
+
     .title-last-forms-offer {
         padding: 0;
         margin: 0;
     }
+
     .description-last-forms-offer {
         font-size: 20px;
         padding-top: 20px;
     }
+
     .clients-partners-forms {
         padding-top: 40px;
         padding-bottom: 0;
         width: 728px;
     }
+
     .client-form, .client-form_2 {
         width: 40%;
     }
+
     .client-form-offer {
         font-size: 20px;
     }
+
     .btn-forms-client {
         width: 94%;
         padding: 20px 0;
     }
+
     .social-contact {
         width: 728px;
         height: auto;
         padding: 20px 0;
     }
+
     .contacts-adress {
         width: 728px;
         font-size: 16px;
     }
+
     .title-our-offer {
         width: 728px;
         margin: 60px auto 10px;
     }
+
     .footer-content {
         width: 728px;
         font-size: 14px;
         flex-wrap: wrap;
     }
+
     .dropbtn {
         font-size: 14px;
     }
+
     .logo-search,
     .footer-menu_2,
     .footer-menu_3,
-    .footer-menu_5{
+    .footer-menu_5 {
         width: 33%;
     }
+
     .footer-menu_4 {
         width: 50%;
     }
+
     .politica-block {
         gap: 0;
         width: 728px;
         font-size: 12px;
     }
 }
-@media (min-width: 320px) and (max-width: 767px){
-    
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .header-container {
+        max-width: 310px;
+        justify-content: center;
+        align-items: normal;
+    }
+
+    header {
+        padding: 5px 0 0 0 !important;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .social-icon_1 {
+        margin: 0 0 0 25px;
+        width: auto;
+    }
+
+    .personal-area {
+        gap: 5px;
+    }
+
+    .personal-area img {
+        width: 80px;
+    }
+
+    .social-icon_2 img,
+    .social-icon_3 img,
+    .social-icon_4 img,
+    .social-icon_5 img,
+    .social-icon_6 img,
+    .social-icon_7 img {
+        width: 20px !important;
+    }
+
+    .dropbtn img {
+        width: 20px !important;
+    }
+
+    .menu__btn {
+        width: 20px;
+        padding-left: 10px;
+        margin-right: 10px;
+        top: 12px;
+    }
+
+    .hero-main {
+        background-position: center;
+        padding-bottom: 40px;
+    }
+
+    .hero-main-content {
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+        width: 310px;
+    }
+
+    .cta-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mytext-selection {
+        font-size: 15px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+
+    .cta-button1_2 {
+        font-size: 11px;
+    }
+
+    .main-text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cta-button1 {
+
+        padding: 15px 0;
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cta-buttons1 {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .offer {
+        width: 320px;
+    }
+
+    .second-offer {
+        max-width: 310px;
+    }
+
+    .title-second-offer {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .description-second-offer {
+        width: 310px;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .text-second-offer {
+        font-size: 20px;
+        width: 320px;
+        text-align: center;
+    }
+
+    .title-span {
+        display: none;
+    }
+
+    .advantages-items {
+        max-width: 320px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .advantages-item_1,
+    .advantages-item_2,
+    .advantages-item_3 {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .advantages-items-what {
+        width: 320px;
+        flex-direction: column;
+    }
+
+    .advantages-item_4,
+    .advantages-item_5,
+    .advantages-item_6 {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cta-button5 {
+        padding: 20px 0;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cta-buttons5 {
+        max-width: 320px;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .third-offer {
+        max-width: 320px;
+        padding-top: 40px;
+    }
+
+    .title-third-offer {
+        font-size: 28px;
+        text-align: center;
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .description-third-offer {
+        width: 320px;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .administration-wrapp {
+        width: 320px;
+        padding-bottom: 40px;
+    }
+
+    .loock-this {
+        display: none;
+    }
+
+    .administration-content {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .administration-item {
+        width: 90%;
+    }
+
+    .example-wrapp {
+        width: 320px;
+        padding-top: 80px;
+    }
+
+    .example-item {
+        width: 310px;
+        margin: 0 auto;
+        padding: 0;
+        background-size: 95%;
+    }
+
+    .example-item-wrapp {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .example-title {
+        width: 95%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .example-description {
+        width: 95%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .real-estate-wrapp {
+        width: 320px;
+        padding-top: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .real-estate-text2, .real-estate-text3 {
+        font-size: 16px;
+        width: 320px;
+        position: relative;
+    }
+
+    .real-estate-text3 {
+        margin: 0;
+    }
+
+    .example-button {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .last-forms {
+        padding-top: 60px;
+    }
+
+    .last-forms-offer {
+        width: 320px;
+    }
+
+    .title-last-forms-offer {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .description-last-forms-offer {
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .clients-partners-forms {
+        width: 320px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .client-form,
+    .client-form_2 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .client-form-offer {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .client-form-description {
+        width: 310px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .input-box input {
+        width: 90%;
+        margin: 0 10px 10px 10px;
+    }
+
+    .btn-forms-client {
+        width: 93%;
+        margin: 0 10px 10px 10px;
+    }
+
+    .social-contact {
+        width: 320px;
+        padding: 10px 0;
+    }
+
+    .odnok {
+        width: 100px;
+    }
+
+    .whatsapp, .vk, .tg {
+        width: 30px;
+    }
+
+    .contacts-adress {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .title-our-offer2 {
+        display: none;
+    }
+
+    .title-our-offer {
+        display: block;
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .footer-wrapper {
+        margin-top: 50px;
+    }
+
+    .footer-content {
+        width: 320px;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .politica-block {
+        width: 320px;
+        flex-direction: column;
+        padding-bottom: 90px;
+    }
+
+    .logo-search,
+    .footer-menu_2,
+    .footer-menu_3,
+    .footer-menu_5 {
+        width: 100%;
+    }
+
+    .footer-menu_4 {
+        width: 100%;
+    }
+
+    .social-contact_2 {
+        margin: 0 auto;
+    }
 }

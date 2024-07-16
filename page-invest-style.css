@@ -41,13 +41,13 @@ nav ul {
     font-size: 16px;
 }
 
-nav li {
-    margin-right: 10px;
-}
-nav li :hover{
+nav li :hover {
     color: #DB3544;
     font-weight: 500;
-    border-bottom: 1px solid #DB3544;
+}
+
+nav li {
+    margin-right: 10px;
 }
 
 nav a {
@@ -755,6 +755,7 @@ nav a {
     padding-top: 80px;
     font-size: 24px;
 }
+
 .title-our-offer {
     font-size: 40px;
     font-weight: 700;
@@ -768,99 +769,393 @@ nav a {
 .footer-wrapper {
     background-color: #ffffff;
     margin-top: 80px;
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     display: flex;
     width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
-  }
-  
-  .logo-footer {
+}
+
+.logo-footer {
     width: 200px;
-  }
-  
-  .footer-search {
+}
+
+.footer-search {
     border: 1px solid #970010;
     border-radius: 10px;
     padding: 10px;
-  }
-  
-  .social-contact_2 {
+}
+
+.social-contact_2 {
     display: flex;
     justify-content: space-evenly;
     width: 200px;
     height: 60px;
     padding-top: 20px;
-  }
-  
-  .odnok_2 {
+}
+
+.odnok_2 {
     width: 100px;
-  }
-  
-  .whatsapp_2,
-  .vk_2,
-  .tg_2 {
+}
+
+.whatsapp_2,
+.vk_2,
+.tg_2 {
     width: 25px;
-  }
-  
-  
-  .footer-menu_2,
-  .footer-menu_4 {
+}
+
+
+.footer-menu_2,
+.footer-menu_4 {
     width: 160px;
-  }
-  
-  .footer-line {
+}
+
+.footer-line {
     opacity: 0.5;
-  }
-  
-  .politica-block {
+}
+
+.politica-block {
     display: flex;
     justify-content: center;
     gap: 60px;
     align-items: center;
-  }
-  
-  .mynumber {
+}
+
+.mynumber {
     text-decoration: none;
     color: #869791;
-  }
-  
+}
 
-  .dropbtn {
+
+.dropbtn {
     background-color: #ffffff;
     font-size: 16px;
     border: none;
     font-family: inherit;
     padding: 0;
 }
-  
-  .dropdown {
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 10px;
-  }
-  
-  .dropdown-content a {
+    padding: 10px;
+}
+
+.dropdown-content-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 5px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ffffff;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {color: #DB3544;
-font-weight: 500;}
+}
+
+.dropdown-content-menu a {
+    color: black;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    color: #DB3544;
+}
+
+.dropdown:hover .dropdown-content {
+    display: grid;
+
+}
+
+.dropdown:hover .dropdown-content-menu {
+    display: grid;
+
+}
+
+.dropdown:hover .dropbtn {
+    color: #DB3544;
+    font-weight: 500;
+}
+
+.grid-border {
+    border-right: 1px solid #DB3544;
+}
+
+.footer-menu_5 p:hover {
+    color: #DB3544;
+}
+
+.footer-menu_4 p:hover {
+    color: #DB3544;
+}
+
+.footer-menu_3 p:hover {
+    color: #DB3544;
+}
+
+/*Адаптация*/
+@media screen and (max-width: 1024px) {
+
+    .gamburger-menu {
+        display: none;
+    }
+
+    .menu__btn {
+        display: block;
+        top: 11px;
+    }
+
+    .header-container {
+        width: 980px;
+    }
+
+    nav {
+        display: none !important;
+    }
+
+    .hero-main {
+        width: 100%;
+    }
+
+    .hero-main-content {
+        padding: 0;
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        padding: 90px 0 0 0;
+    }
+
+    .hero-description {
+        font-size: 24px;
+        width: 88%;
+    }
+
+    .cta-buttons {
+        gap: 20px;
+    }
+
+    .main-text {
+        font-size: 20px;
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    .cta-button_1 {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .cta-button1 {
+        padding: 20px 40px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    /*Вторая секция*/
+
+    .offer {
+        width: 980px;
+        margin-top: 20px !important;
+    }
+
+    .second-offer {
+        max-width: 980px;
+    }
+
+    .title-second-offer {
+        font-size: 32px;
+    }
+
+    .description-second-offer {
+        width: 960px;
+        font-size: 24px;
+    }
+
+    .text-second-offer {
+        font-size: 24px;
+        width: 980px;
+    }
+
+    .advantages-items {
+        max-width: 980px;
+    }
+
+    .advantages-title {
+        font-size: 20px;
+        margin: 10px 0 10px 0;
+    }
+
+    .advantages-text {
+        font-size: 16px;
+    }
+
+    .advantages-items-what {
+        width: 980px;
+    }
+
+    .cta-buttons5 {
+        max-width: 980px;
+    }
+
+    .cta-button5 {
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+
+    /*Третья секция*/
+
+    .third-offer {
+        max-width: 980px;
+    }
+
+    .title-third-offer {
+        font-size: 32px;
+    }
+
+    .description-third-offer {
+        width: 980px;
+        font-size: 24px;
+    }
+
+    .administration-wrapp {
+        width: 980px;
+    }
+
+    /*Четвёртая секция*/
+
+    .example {
+        margin-top: 60px;
+    }
+
+    .example-wrapp {
+        width: 980px;
+        padding-top: 100px;
+        margin-bottom: -60px;
+    }
+
+    .example-item {
+        width: 45%;
+        margin-bottom: -90px;
+    }
+
+    .real-estate-wrapp {
+        width: 980px;
+    }
+
+    .real-estate-text2,
+    .real-estate-text3 {
+        font-size: 20px;
+    }
+
+    .real-estate-text {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .example-button {
+        padding: 20px 0;
+        font-size: 20px;
+
+    }
+
+    /*Пятая секция*/
+
+    .last-forms-offer {
+        width: 980px;
+    }
+
+    .title-last-forms-offer {
+        font-size: 32px;
+        padding-top: 40px;
+    }
+
+    .description-last-forms-offer {
+        font-size: 24px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .clients-partners-forms {
+        padding-top: 60px;
+        padding-bottom: 10px;
+        width: 980px;
+    }
+
+    .client-form,
+    .client-form_2 {
+        width: 42%;
+    }
+
+    /*шестая секция*/
+    .title-our-contact-offer {
+        font-size: 32px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .contacts-adress {
+        width: 980px;
+        padding-top: 40px;
+        font-size: 19px;
+    }
+
+    .title-our-offer {
+        font-size: 32px;
+        margin: 60px auto 40px;
+        width: 980px;
+    }
+
+    /*подвал*/
+
+    .footer-content {
+        width: 980px;
+        font-size: 14px;
+    }
+
+    .footer-menu_2 {
+        width: 140px;
+    }
+
+    .footer-menu_3 {
+        width: 160px;
+    }
+
+    .dropbtn {
+        font-size: 14px;
+    }
+
+    .politica-block {
+        font-size: 14px;
+        width: 980px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+}

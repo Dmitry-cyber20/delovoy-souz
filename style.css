@@ -1924,6 +1924,9 @@ div.sim-slider_2-arrow-right:hover {
   .header-container {
     max-width: 728px;
   }
+  .dropbtn img{
+    width: 20px !important;
+  }
 
   .hero-main {
     width: 728px;

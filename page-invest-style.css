@@ -1136,6 +1136,11 @@ width: 70%;
 .footer-menu_3 p:hover {
     color: #DB3544;
 }
+.slider-correction{
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
 
 /*Адаптация*/
 

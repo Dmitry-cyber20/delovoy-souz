@@ -13,7 +13,7 @@ body {
 header {
     background-color: #ffffff;
     color: #000000;
-    padding: 10px 0;
+    padding: 0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     position: -webkit-sticky;
     position: sticky;
@@ -187,6 +187,15 @@ nav a {
     position: relative;
     top: -40px;
 }
+.hero-correction {
+    max-width: 100%;
+    background-image: url(img/correction-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    top: -40px;
+}
 
 .hero-main-content {
     margin: 0 auto;
@@ -210,6 +219,13 @@ nav a {
     margin: 0;
     padding: 20px 0 0 0;
 }
+.hero-description-correction{
+    font-size: 30px;
+    width: 777px;
+    font-weight: 500;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
 
 .title-span {
     color: #970010;
@@ -218,6 +234,7 @@ nav a {
 .title1-span {
     color: #970010;
 }
+
 
 .hero-content-block {
     background-repeat: no-repeat;
@@ -241,6 +258,7 @@ nav a {
     border: 2px solid #970010;
     border-radius: 15px;
     font-size: 18px;
+    text-transform: uppercase;
     line-height: 40px;
     padding: 12px 20px;
     display: inline-block;
@@ -335,6 +353,12 @@ nav a {
     width: 1160px;
     padding-bottom: 20px;
 }
+.text-second-offer-correction{
+    font-size: 30px;
+    font-weight: 600;
+    width: 888px;
+    padding-bottom: 20px;
+}
 
 .advantages-items {
     padding-top: 20px;
@@ -362,6 +386,29 @@ nav a {
     align-items: normal;
     width: 30%;
 }
+.advantages-item-correction{
+    padding-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0 40px 20px;
+    width: 1160px;
+    background: url(img/growth-chart.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90% 50%;
+}
+.advantages-items-correct{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.advantages-items-correct>div{
+    width: 80%;
+}
 
 .advantages-img-item {
     border-radius: 10px;
@@ -382,6 +429,11 @@ nav a {
     padding: 0;
     margin: 20px 0 20px 0;
 }
+.advantages-title-correction{
+    font-size: 24px;
+    padding: 0;
+    width: 456px;
+}
 
 .advantages-text {
     font-size: 18px;
@@ -393,6 +445,22 @@ nav a {
 .advantages-item_2 img,
 .advantages-item_3 img {
     width: 80px;
+}
+.btns-correction-offer{
+position: absolute;
+}
+.btn-correction-offer{
+    top: 90px;
+    position: relative;
+    display: block;
+    background-color: rgb(219, 53, 68);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 80px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s ease 0s;
 }
 
 .cta-buttons5 {
@@ -418,6 +486,28 @@ nav a {
 
 .cta-button5:hover {
     background-color: #970010;
+}
+.advantage-correction-wrapp{
+padding-top: 120px;
+}
+.reason{
+    width: 1160px;
+    margin: 0 auto;
+}
+.reason-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.reason-wrapp{
+    padding-top: 40px;
+}
+
+.reason-item-text{
+    font-size: 24px;
+}
+.reason-button{
+    padding-top: 60px;
 }
 
 .third-offer {
@@ -511,6 +601,13 @@ nav a {
     width: 100%;
     margin-top: 90px;
 }
+.example-correction {
+    background-image: url(img/screen2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 90px;
+}
 
 .example-wrapp {
     width: 1160px;
@@ -518,6 +615,16 @@ nav a {
     padding-top: 200px;
     padding-bottom: 100px;
 
+}
+.example-correction-item-wrapp{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.example-wrapp-pic{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 50px;
 }
 
 .example-item {
@@ -528,6 +635,12 @@ nav a {
     background-position: right bottom;
     border-radius: 10px;
     padding: 10px 0 20px 20px;
+}
+.example-item-correction {
+    width: 49%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 0 0 20px;
 }
 
 .btn-forms-example {
@@ -578,6 +691,29 @@ nav a {
     gap: 20px;
 }
 
+
+.credit-history-wrap{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    gap: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.credit-history-text{
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.credit-history-pic img {
+    width: 108%;
+}
+.real-estate-pic img {
+    width: 100%;
+}
 .real-estate-text {
     font-size: 22px;
     line-height: 30px;
@@ -585,7 +721,70 @@ nav a {
     padding-bottom: 10px;
     width: 350px;
 }
-
+.credit-history-content-1{
+    display: flex;
+    width: 34%;
+    border-radius: 10px;
+    padding: 20px 10px 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.title-content-1{
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.credit-history-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 0 0;
+    width: 33%;
+}
+.credit-check{
+    position: absolute;
+    margin: -30px 0 0 0 ;
+}
+.credit-history-item-text{
+    font-size: 20px;
+    margin: 0;
+    padding: 7px 0 10px 0;
+    line-height: 24px;
+}
+.credit-history-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.credit-history-item-2{
+    display: flex;
+    width: 100%;
+    background-color: #E9FFFA;
+    border-radius: 10px;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.credit-history-item-2>img{
+    width: 60px;
+}
+.credit-history-item-3{
+    display: flex;
+    width: 100%;
+    background-color: #E9FFFA;
+    border-radius: 10px;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.credit-history-item-2-text{
+    font-size: 20px;
+    text-align: center;
+}
 .real-estate-text2 {
     font-size: 22px;
     line-height: 30px;
@@ -622,9 +821,6 @@ nav a {
     background-color: #970010;
 }
 
-.real-estate-pic img {
-    width: 100%;
-}
 
 .last-forms-offer {
     display: flex;
@@ -679,7 +875,15 @@ nav a {
     border-radius: 10px;
     padding: 30px;
     width: 500px;
-
+}
+.client-form-correction{
+    background-image: url(img/Group-yes.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 10px;
+    padding: 20px;
+    width: 46%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .client-form-offer {
@@ -687,8 +891,8 @@ nav a {
     color: black;
     padding: 0;
     margin: 0;
-
 }
+
 
 .name,
 .text {
@@ -724,6 +928,9 @@ nav a {
 
 .btn-forms-client:hover {
     background-color: #970010;
+}
+.btn-policy{
+width: 70%;
 }
 
 /*Контакты*/
@@ -1126,6 +1333,7 @@ nav a {
     .client-form_2 {
         width: 42%;
     }
+    
 
     /*шестая секция*/
     .title-our-contact-offer {
@@ -1764,6 +1972,7 @@ nav a {
         text-align: center;
         margin-bottom: 20px;
     }
+    
 
     .input-box input {
         width: 90%;
@@ -1798,9 +2007,6 @@ nav a {
     }
 
     .title-our-offer2 {
-        display: none;
-    }
-    .our-contact-offer2{
         display: none;
     }
 
